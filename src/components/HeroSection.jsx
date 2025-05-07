@@ -1,24 +1,21 @@
 import React from 'react';
 import './Hero.css';
-import heroImg from '../assets/hero-bg.jpeg';
+import bgImage from '../assets/hero-bg.jpeg'; // ✅ import the image
 
 const HeroSection = () => {
   return (
-    <section className="hero-section" id="home">
-      <div className="container hero-content fade-in">
-        <div className="hero-text">
-          <h1>Welcome to Asif Chemicals</h1>
-          <p>
-            We provide premium industrial minerals and chemical solutions
-            to leading industries across Pakistan — trusted for over 30 years.
-          </p>
-          <a href="#products">
-            <button>Explore Our Products</button>
-          </a>
-        </div>
-        <div className="hero-image">
-        <img src={heroImg} alt="Chemical Industry" />
-        </div>
+    <section
+      className="hero"
+      id="home"
+      style={{
+        backgroundImage: `url(${bgImage})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+      }}
+    >
+      <div className="hero-content">
+        <h1>Welcome to Asif Chemicals</h1>
+        <p>We provide high-quality chemical solutions</p>
       </div>
     </section>
   );

@@ -1,5 +1,8 @@
 import React from 'react';
 import './App.css';
+import './styles/base.css';
+import './styles/tablet.css';
+import './styles/mobile.css';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection';
