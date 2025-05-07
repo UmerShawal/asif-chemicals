@@ -1,0 +1,76 @@
+.clients-section {
+  padding: 100px 20px;
+  background-color: #fff;
+}
+
+.clients-header {
+  max-width: 1200px;
+  margin: 0 auto 60px;
+  text-align: center;
+}
+
+.clients-header h1 {
+  font-size: 42px;
+  font-weight: bold;
+  color: #00264d;
+  margin-bottom: 10px;
+}
+
+.clients-divider {
+  width: 100px;
+  height: 3px;
+  background-color: #00509e;
+  margin-bottom: 20px;
+}
+
+.clients-header p {
+  font-size: 16px;
+  color: #444;
+  max-width: 750px;
+  line-height: 1.7;
+}
+
+.clients-container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.industry-group {
+  margin-bottom: 60px;
+}
+
+.industry-group h2 {
+  font-size: 28px;
+  color: #00264d;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.clients-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 60px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.clients-logos img {
+  height: 100px;
+  width: auto;
+  object-fit: contain;
+  filter: grayscale(100%);
+  transition: all 0.3s ease;
+}
+
+.clients-logos img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.05);
+}
+
+hr {
+  margin-top: 40px;
+  border: none;
+  border-top: 1px solid #ddd;
+}
