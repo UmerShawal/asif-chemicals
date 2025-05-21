@@ -1,4 +1,4 @@
-/* === Base Theme === */
+/* === Global Base Theme === */
 * {
   margin: 0;
   padding: 0;
@@ -21,13 +21,20 @@ section {
   padding: 80px 20px;
 }
 
-h1, h2, h3 {
-  color: #00264d;
-}
-
 .container {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+h1, h2, h3 {
+  color: #00264d;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #444;
 }
 
 button {
@@ -44,6 +51,11 @@ button:hover {
   background-color: #003f7d;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .fade-in {
   opacity: 0;
   transform: translateY(30px);
@@ -54,5 +66,26 @@ button:hover {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+/* === Mobile Responsive Fixes === */
+@media (max-width: 768px) {
+  section {
+    padding: 60px 16px;
+  }
+
+  h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+
+  button {
+    width: 100%;
+    font-size: 15px;
   }
 }

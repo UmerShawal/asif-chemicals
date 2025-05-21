@@ -14,7 +14,7 @@ const HeroSection = () => {
       }}
     >
       <div className="hero-content">
-        <h1>Welcome to Asif Chemicals</h1>
+        <h1>Welcome to SilverStone Enterprises</h1>
         <p>We provide high-quality chemical solutions</p>
       </div>
     </section>
