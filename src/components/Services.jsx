@@ -8,7 +8,7 @@ const Services = () => {
       <div className="services-container">
         <h2>Our Services</h2>
         <p className="services-intro">
-          We offer a range of professional services in the chemical industry with guaranteed quality.
+          We offer a range of professional services in the minerals industry with guaranteed quality.
         </p>
         <div className="services-cards">
           <div className="service-card">

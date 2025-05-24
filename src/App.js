@@ -8,7 +8,9 @@ import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection';
 import Services from './components/Services';
 import Products from './components/Products';
-import Clients from './components/Clients';
+import ExportMarkets from './components/ExportMarkets';
+import WhyChoose from './components/WhyChoose';
+import PartnerWithUs from './components/PartnerWithUs';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -19,8 +21,10 @@ function App() {
       <HeroSection />
       <AboutSection />
       <Products />
-      <Clients />
+     <ExportMarkets />
       <Services />
+      <WhyChoose />
+      <PartnerWithUs />
       <Contact />
       <Footer />
     </>

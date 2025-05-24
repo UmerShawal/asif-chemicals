@@ -11,6 +11,7 @@
     "cors": "^2.8.5",
     "emailjs-com": "^3.2.0",
     "express": "^5.1.0",
+    "framer-motion": "^12.12.2",
     "jspdf": "^3.0.1",
     "nodemailer": "^7.0.3",
     "pdfkit": "^0.17.1",

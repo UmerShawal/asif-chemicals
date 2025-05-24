@@ -124,55 +124,6 @@
   }
 }
 
-/* === Order Modal === */
-.order-modal {
-  position: fixed;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(0, 0, 0, 0.65);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 9999;
-}
-
-.order-modal-content {
-  background: #fff;
-  padding: 30px;
-  width: 90%;
-  max-width: 500px;
-  border-radius: 12px;
-  position: relative;
-  animation: fadeIn 0.3s ease-in-out forwards;
-}
-
-.order-modal-content form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.order-modal-content input,
-.order-modal-content textarea {
-  padding: 12px;
-  font-size: 15px;
-  border-radius: 6px;
-  border: 1px solid #ccc;
-  width: 100%;
-}
-
-.order-modal-content button {
-  padding: 12px;
-  background-color: #00509e;
-  color: white;
-  font-weight: bold;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-.order-modal-content button:hover {
-  background-color: #003f7d;
-}
 .quantity-row {
   display: flex;
   gap: 10px;
@@ -188,4 +139,10 @@
   font-size: 15px;
   border-radius: 6px;
   border: 1px solid #ccc;
+}
+.product-app {
+  font-style: italic;
+  font-size: 14px;
+  margin-top: 5px;
+  color: #00509e;
 }

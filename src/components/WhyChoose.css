@@ -1,0 +1,27 @@
+.why-choose-section {
+  background-color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.choose-list {
+  list-style: none;
+  padding: 0;
+  margin: 40px auto 0;
+  max-width: 800px;
+  text-align: left;
+}
+
+.choose-list li {
+  font-size: 16px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  color: #333;
+}
+
+.icon {
+  color: #00509e;
+  margin-right: 10px;
+  font-size: 18px;
+}

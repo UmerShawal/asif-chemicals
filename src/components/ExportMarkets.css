@@ -1,0 +1,50 @@
+.export-section {
+  padding: 80px 20px;
+  background-color: #f2f7fc;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #00264d;
+  margin-bottom: 10px;
+}
+
+.intro-text {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 40px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.export-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+.export-card {
+  background: white;
+  border-radius: 10px;
+  padding: 24px;
+  width: 100%;
+  max-width: 250px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.export-card img {
+  height: 150px;
+  margin-bottom: 12px;
+  object-fit: contain;
+}
+
+.export-card h4 {
+  font-size: 16px;
+  color: #00264d;
+  margin: 0;
+}

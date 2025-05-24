@@ -1,6 +1,6 @@
 import React from 'react';
 import './Hero.css';
-import bgImage from '../assets/hero-bg.jpeg'; // ✅ import the image
+import bgImage from '../assets/hero-bg.jpeg'; 
 
 const HeroSection = () => {
   return (
@@ -15,7 +15,7 @@ const HeroSection = () => {
     >
       <div className="hero-content">
         <h1>Welcome to SilverStone Enterprises</h1>
-        <p>We provide high-quality chemical solutions</p>
+        <p>Your Global Partner in Premium Industrial Minerals</p>
       </div>
     </section>
   );
