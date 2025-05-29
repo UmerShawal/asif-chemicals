@@ -1,31 +1,31 @@
 .navbar {
-    background-color: #00264d;
-    padding: 20px 0;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-  }
-  
-  .navbar-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .logo-link {
+  background-color: #00264d;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  height: 90px; /* Match navbar height */
 }
 
 .logo {
-  height: 100px;
+  height: 90px;         /* Auto fits navbar height */
   width: auto;
-  animation: fadeInLogo 1s ease-in-out forwards;
-  opacity: 0;
-  transition: transform 0.3s ease;
+  object-fit: contain;
+  filter: drop-shadow(0 0 4px rgba(255,255,255,0.2));
 }
 
 .logo:hover {

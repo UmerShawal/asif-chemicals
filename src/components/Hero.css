@@ -23,11 +23,20 @@
 .hero h1 {
   font-size: 48px;
   animation: fadeInDown 1s ease-out;
+  text-shadow:
+    0 0 8px rgba(255, 255, 255, 0.8),
+    0 0 12px rgba(255, 215, 0, 0.7),   /* gold */
+    0 0 18px rgba(173, 216, 230, 0.6); /* light blue */
 }
 
 .hero p {
   font-size: 20px;
   animation: fadeInUp 1s ease-out;
+  color: #fff;
+  text-shadow:
+    0 0 8px rgba(255, 255, 255, 0.9),
+    0 0 12px rgba(255, 215, 0, 0.7),   /* gold */
+    0 0 18px rgba(173, 216, 230, 0.6); /* light blue */
 }
 
 @keyframes fadeInDown {
