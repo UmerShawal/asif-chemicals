@@ -50,8 +50,8 @@ const Contact = () => {
 
             {/* Right: Contact Info */}
             <div className="contact-info">
-              <p><FaEnvelope className="contact-icon" /> <strong>Email:</strong> shalikhokhar302@gmail.com</p>
-              <p><FaPhoneAlt className="contact-icon" /> <strong>Phone:</strong> +92 300 1234567</p>
+              <p><FaEnvelope className="contact-icon" /> <strong>Email:</strong> silverstoneenterprises11@gmail.com</p>
+              <p><FaPhoneAlt className="contact-icon" /> <strong>Phone:</strong> +92 345 9096945</p>
               <p><FaMapMarkerAlt className="contact-icon" /> <strong>Address:</strong> Lahore, Pakistan</p>
               <p>We respond to all queries within 24 hours.</p>
 
@@ -75,7 +75,7 @@ const Contact = () => {
 
       {/* WhatsApp Button */}
       <a
-        href="https://wa.me/923001234567"
+        href="https://wa.me/923459096925"
         className="whatsapp-float"
         target="_blank"
         rel="noopener noreferrer"
