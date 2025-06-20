@@ -52,21 +52,23 @@ const Contact = () => {
             <div className="contact-info">
               <p><FaEnvelope className="contact-icon" /> <strong>Email:</strong> silverstoneenterprises11@gmail.com</p>
               <p><FaPhoneAlt className="contact-icon" /> <strong>Phone:</strong> +92 345 9096945</p>
-              <p><FaMapMarkerAlt className="contact-icon" /> <strong>Address:</strong> Lahore, Pakistan</p>
+              <p><FaMapMarkerAlt className="contact-icon" /> <strong>Address:</strong> Abbottabad, Pakistan</p>
               <p>We respond to all queries within 24 hours.</p>
 
               {/* Working Google Map */}
-              <div className="map-container">
-                <iframe
-                  title="Google Map"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27214.183604805254!2d74.30846037004161!3d31.520369616482732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190483e58107d9%3A0xc23abe6ccc7e2462!2sLahore%2C%20Pakistan!5e0!3m2!1sen!2s!4v1683617328389!5m2!1sen!2s"
-                  width="100%"
-                  height="200"
-                  allowFullScreen=""
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  style={{ border: '0', borderRadius: '8px', marginTop: '20px' }}
-                ></iframe>
+            <div className="map-container">
+           <iframe
+             title="Google Map"
+             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105627.89709694528!2d73.15353661548865!3d34.175195640502686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38de3111557ac517%3A0x6e59a635b12e952c!2sAbbottabad%2C%20Pakistan!5e0!3m2!1sen!2s!4v1750438969473!5m2!1sen!2s"
+             width="100%"
+             height="200"
+             allowFullScreen=""
+             loading="lazy"
+             referrerPolicy="no-referrer-when-downgrade"
+             style={{ border: '0', borderRadius: '8px', marginTop: '20px' }}
+         ></iframe>
+
+
               </div>
             </div>
           </div>
