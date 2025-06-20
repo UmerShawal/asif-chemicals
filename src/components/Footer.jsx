@@ -32,7 +32,7 @@ const Footer = () => {
 
         <div className="footer-column">
           <h4>Contact Info</h4>
-          <p>Email: silverstoneenterprises11@gmail.com</p>
+          <p>Email: silverstonenterprises11@gmail.com</p>
           <p>Phone: +92 345 9096945</p>
           <p>Location: Abbattabad, Pakistan</p>
         </div>

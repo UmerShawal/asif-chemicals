@@ -50,7 +50,7 @@ const Contact = () => {
 
             {/* Right: Contact Info */}
             <div className="contact-info">
-              <p><FaEnvelope className="contact-icon" /> <strong>Email:</strong> silverstoneenterprises11@gmail.com</p>
+              <p><FaEnvelope className="contact-icon" /> <strong>Email:</strong> silverston*enterprises11@gmail.com</p>
               <p><FaPhoneAlt className="contact-icon" /> <strong>Phone:</strong> +92 345 9096945</p>
               <p><FaMapMarkerAlt className="contact-icon" /> <strong>Address:</strong> Abbottabad, Pakistan</p>
               <p>We respond to all queries within 24 hours.</p>
