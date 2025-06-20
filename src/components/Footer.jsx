@@ -34,7 +34,7 @@ const Footer = () => {
           <h4>Contact Info</h4>
           <p>Email: silverstoneenterprises11@gmail.com</p>
           <p>Phone: +92 345 9096945</p>
-          <p>Location: Lahore, Pakistan</p>
+          <p>Location: Abbattabad, Pakistan</p>
         </div>
       </div>
 
