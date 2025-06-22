@@ -6,6 +6,8 @@
   color: white;
   text-align: center;
   position: relative;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 .hero::before {
@@ -22,22 +24,19 @@
 
 .hero h1 {
   font-size: 48px;
+  color: #2AB1B0; /* Same turquoise color from logo */
   animation: fadeInDown 1s ease-out;
-  text-shadow:
-    0 0 8px rgba(255, 255, 255, 0.8),
-    0 0 12px rgba(255, 215, 0, 0.7),   /* gold */
-    0 0 18px rgba(173, 216, 230, 0.6); /* light blue */
+  text-shadow: none; /* Remove glow */
+  font-weight: 700;
 }
 
 .hero p {
   font-size: 20px;
+  color: #2AB1B0; /* Same turquoise color from logo */
   animation: fadeInUp 1s ease-out;
-  color: #fff;
-  text-shadow:
-    0 0 8px rgba(255, 255, 255, 0.9),
-    0 0 12px rgba(255, 215, 0, 0.7),   /* gold */
-    0 0 18px rgba(173, 216, 230, 0.6); /* light blue */
+  text-shadow: none;
 }
+
 
 @keyframes fadeInDown {
   from { opacity: 0; transform: translateY(-20px); }

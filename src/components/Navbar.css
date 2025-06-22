@@ -87,8 +87,9 @@
 .bar {
   width: 26px;
   height: 3px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.5);
   transition: 0.3s ease;
+  /* filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.2)); */
 }
 
 .rotate1 {
