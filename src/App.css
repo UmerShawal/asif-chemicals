@@ -1,4 +1,9 @@
 /* === Global Base Theme === */
+/* === Global Section Headings Color === */
+h1, h2, h3, .section-title {
+  color: #2AB1B0 !important;
+}
+
 * {
   margin: 0;
   padding: 0;
