@@ -7,10 +7,9 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-column">
-          <h3>Asif Chemicals</h3>
+          <h3>SilverStone Enterprises</h3>
           <p>
-            Providing reliable chemical solutions for industries and households.
-            We are committed to quality, safety, and eco-friendly practices.
+            Silverstone Enterprises provides reliable mineral and chemical solutions for industries and households. We are committed to delivering top-tier quality, prioritizing safety, and embracing eco‑friendly practices across all operations.
           </p>
           <div className="social-icons">
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
@@ -39,7 +38,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} Asif Chemicals. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} SilverStone Enterprises. All rights reserved.</p>
       </div>
     </footer>
   );

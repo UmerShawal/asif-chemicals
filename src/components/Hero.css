@@ -24,15 +24,15 @@
 
 .hero h1 {
   font-size: 48px;
-  color: #2AB1B0; /* Same turquoise color from logo */
+  color: #2AB1B0; 
   animation: fadeInDown 1s ease-out;
-  text-shadow: none; /* Remove glow */
+  text-shadow: none; 
   font-weight: 700;
 }
 
 .hero p {
   font-size: 20px;
-  color: #2AB1B0; /* Same turquoise color from logo */
+  color: #2AB1B0;
   animation: fadeInUp 1s ease-out;
   text-shadow: none;
 }

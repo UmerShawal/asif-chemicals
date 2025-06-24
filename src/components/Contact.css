@@ -1,5 +1,5 @@
 .contact-section {
-  padding: 100px 20px;
+   padding-top: 20px; /* reduce if it's large */
   background-color: #f2f7fc;
 }
 

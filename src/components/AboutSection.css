@@ -1,6 +1,6 @@
 .about-section {
   background-color: #f2f7fc;
-  padding: 60px 20px;
+  padding: 40px 20px;
 }
 
 .about-text {
@@ -14,19 +14,20 @@
   align-items: center;
   max-width: 1300px;
   margin: 0 auto;
-  gap: 30px;
+  gap: 20px;
 }
 
 .about-text {
-  flex: 1 1 600px;
+  flex: 1 1 500px;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .about-text h2 {
   font-size: 36px;
   color: #00264d;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .about-text p {
@@ -36,13 +37,13 @@
 }
 
 .about-image {
-  flex: 1 1 500px;
+  flex: 1 1 450px;
   text-align: center;
 }
 
 .about-image img {
   width: 100%;
-  max-width: 500px;
+  max-width: 450px;
   border-radius: 12px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.12);
 }
@@ -66,6 +67,11 @@
   .about-content {
     flex-direction: column;
     text-align: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  .about-image img {
+    max-width: 100%;
   }
 
 }
